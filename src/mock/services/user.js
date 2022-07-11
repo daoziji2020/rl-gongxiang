@@ -481,7 +481,7 @@ const userNav = options => {
       id: 1,
       meta: {
         icon: 'dashboard',
-        title: '仪表盘1111',
+        title: '项目中心',
         show: true
       },
       component: 'RouteView',
@@ -527,7 +527,7 @@ const userNav = options => {
       id: 10,
       meta: {
         icon: 'form',
-        title: '表单页'
+        title: '查找企业'
       },
       redirect: '/form/base-form',
       component: 'RouteView'
@@ -567,7 +567,7 @@ const userNav = options => {
       id: 10010,
       meta: {
         icon: 'table',
-        title: '列表页',
+        title: '查找人才',
         show: true
       },
       redirect: '/list/table-list',
@@ -652,7 +652,7 @@ const userNav = options => {
       parentId: 0,
       id: 10018,
       meta: {
-        title: '详情页',
+        title: '公司信息管理',
         icon: 'profile',
         show: true
       },
@@ -678,180 +678,180 @@ const userNav = options => {
         show: true
       },
       component: 'ProfileAdvanced'
-    },
-
-    // result
-    {
-      name: 'result',
-      parentId: 0,
-      id: 10021,
-      meta: {
-        title: '结果页',
-        icon: 'check-circle-o',
-        show: true
-      },
-      redirect: '/result/success',
-      component: 'PageView'
-    },
-    {
-      name: 'success',
-      parentId: 10021,
-      id: 10022,
-      meta: {
-        title: '成功',
-        hiddenHeaderContent: true,
-        show: true
-      },
-      component: 'ResultSuccess'
-    },
-    {
-      name: 'fail',
-      parentId: 10021,
-      id: 10023,
-      meta: {
-        title: '失败',
-        hiddenHeaderContent: true,
-        show: true
-      },
-      component: 'ResultFail'
-    },
-
-    // Exception
-    {
-      name: 'exception',
-      parentId: 0,
-      id: 10024,
-      meta: {
-        title: '异常页',
-        icon: 'warning',
-        show: true
-      },
-      redirect: '/exception/403',
-      component: 'RouteView'
-    },
-    {
-      name: '403',
-      parentId: 10024,
-      id: 10025,
-      meta: {
-        title: '403',
-        show: true
-      },
-      component: 'Exception403'
-    },
-    {
-      name: '404',
-      parentId: 10024,
-      id: 10026,
-      meta: {
-        title: '404',
-        show: true
-      },
-      component: 'Exception404'
-    },
-    {
-      name: '500',
-      parentId: 10024,
-      id: 10027,
-      meta: {
-        title: '500',
-        show: true
-      },
-      component: 'Exception500'
-    },
-
-    // account
-    {
-      name: 'account',
-      parentId: 0,
-      id: 10028,
-      meta: {
-        title: '个人页',
-        icon: 'user',
-        show: true
-      },
-      redirect: '/account/center',
-      component: 'RouteView'
-    },
-    {
-      name: 'center',
-      parentId: 10028,
-      id: 10029,
-      meta: {
-        title: '个人中心',
-        show: true
-      },
-      component: 'AccountCenter'
-    },
-    // 特殊三级菜单
-    {
-      name: 'settings',
-      parentId: 10028,
-      id: 10030,
-      meta: {
-        title: '个人设置',
-        hideHeader: true,
-        hideChildren: true,
-        show: true
-      },
-      redirect: '/account/settings/basic',
-      component: 'AccountSettings'
-    },
-    {
-      name: 'BasicSettings',
-      path: '/account/settings/basic',
-      parentId: 10030,
-      id: 10031,
-      meta: {
-        title: '基本设置',
-        show: false
-      },
-      component: 'BasicSetting'
-    },
-    {
-      name: 'SecuritySettings',
-      path: '/account/settings/security',
-      parentId: 10030,
-      id: 10032,
-      meta: {
-        title: '安全设置',
-        show: false
-      },
-      component: 'SecuritySettings'
-    },
-    {
-      name: 'CustomSettings',
-      path: '/account/settings/custom',
-      parentId: 10030,
-      id: 10033,
-      meta: {
-        title: '个性化设置',
-        show: false
-      },
-      component: 'CustomSettings'
-    },
-    {
-      name: 'BindingSettings',
-      path: '/account/settings/binding',
-      parentId: 10030,
-      id: 10034,
-      meta: {
-        title: '账户绑定',
-        show: false
-      },
-      component: 'BindingSettings'
-    },
-    {
-      name: 'NotificationSettings',
-      path: '/account/settings/notification',
-      parentId: 10030,
-      id: 10034,
-      meta: {
-        title: '新消息通知',
-        show: false
-      },
-      component: 'NotificationSettings'
     }
+
+    // // result
+    // {
+    //   name: 'result',
+    //   parentId: 0,
+    //   id: 10021,
+    //   meta: {
+    //     title: '结果页',
+    //     icon: 'check-circle-o',
+    //     show: true
+    //   },
+    //   redirect: '/result/success',
+    //   component: 'PageView'
+    // },
+    // {
+    //   name: 'success',
+    //   parentId: 10021,
+    //   id: 10022,
+    //   meta: {
+    //     title: '成功',
+    //     hiddenHeaderContent: true,
+    //     show: true
+    //   },
+    //   component: 'ResultSuccess'
+    // },
+    // {
+    //   name: 'fail',
+    //   parentId: 10021,
+    //   id: 10023,
+    //   meta: {
+    //     title: '失败',
+    //     hiddenHeaderContent: true,
+    //     show: true
+    //   },
+    //   component: 'ResultFail'
+    // },
+
+    // // Exception
+    // {
+    //   name: 'exception',
+    //   parentId: 0,
+    //   id: 10024,
+    //   meta: {
+    //     title: '异常页',
+    //     icon: 'warning',
+    //     show: true
+    //   },
+    //   redirect: '/exception/403',
+    //   component: 'RouteView'
+    // },
+    // {
+    //   name: '403',
+    //   parentId: 10024,
+    //   id: 10025,
+    //   meta: {
+    //     title: '403',
+    //     show: true
+    //   },
+    //   component: 'Exception403'
+    // },
+    // {
+    //   name: '404',
+    //   parentId: 10024,
+    //   id: 10026,
+    //   meta: {
+    //     title: '404',
+    //     show: true
+    //   },
+    //   component: 'Exception404'
+    // },
+    // {
+    //   name: '500',
+    //   parentId: 10024,
+    //   id: 10027,
+    //   meta: {
+    //     title: '500',
+    //     show: true
+    //   },
+    //   component: 'Exception500'
+    // },
+
+    // // account
+    // {
+    //   name: 'account',
+    //   parentId: 0,
+    //   id: 10028,
+    //   meta: {
+    //     title: '个人页',
+    //     icon: 'user',
+    //     show: true
+    //   },
+    //   redirect: '/account/center',
+    //   component: 'RouteView'
+    // },
+    // {
+    //   name: 'center',
+    //   parentId: 10028,
+    //   id: 10029,
+    //   meta: {
+    //     title: '个人中心',
+    //     show: true
+    //   },
+    //   component: 'AccountCenter'
+    // },
+    // // 特殊三级菜单
+    // {
+    //   name: 'settings',
+    //   parentId: 10028,
+    //   id: 10030,
+    //   meta: {
+    //     title: '个人设置',
+    //     hideHeader: true,
+    //     hideChildren: true,
+    //     show: true
+    //   },
+    //   redirect: '/account/settings/basic',
+    //   component: 'AccountSettings'
+    // },
+    // {
+    //   name: 'BasicSettings',
+    //   path: '/account/settings/basic',
+    //   parentId: 10030,
+    //   id: 10031,
+    //   meta: {
+    //     title: '基本设置',
+    //     show: false
+    //   },
+    //   component: 'BasicSetting'
+    // },
+    // {
+    //   name: 'SecuritySettings',
+    //   path: '/account/settings/security',
+    //   parentId: 10030,
+    //   id: 10032,
+    //   meta: {
+    //     title: '安全设置',
+    //     show: false
+    //   },
+    //   component: 'SecuritySettings'
+    // },
+    // {
+    //   name: 'CustomSettings',
+    //   path: '/account/settings/custom',
+    //   parentId: 10030,
+    //   id: 10033,
+    //   meta: {
+    //     title: '个性化设置',
+    //     show: false
+    //   },
+    //   component: 'CustomSettings'
+    // },
+    // {
+    //   name: 'BindingSettings',
+    //   path: '/account/settings/binding',
+    //   parentId: 10030,
+    //   id: 10034,
+    //   meta: {
+    //     title: '账户绑定',
+    //     show: false
+    //   },
+    //   component: 'BindingSettings'
+    // },
+    // {
+    //   name: 'NotificationSettings',
+    //   path: '/account/settings/notification',
+    //   parentId: 10030,
+    //   id: 10034,
+    //   meta: {
+    //     title: '新消息通知',
+    //     show: false
+    //   },
+    //   component: 'NotificationSettings'
+    // }
   ]
   const json = builder(nav)
   console.log('json', json)
