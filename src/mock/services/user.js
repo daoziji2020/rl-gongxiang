@@ -539,28 +539,28 @@ const userNav = options => {
       parentId: 10,
       id: 6,
       meta: {
-        title: '基础表单'
+        title: '查找企业'
       },
       component: 'BasicForm'
     },
-    {
-      name: 'step-form',
-      parentId: 10,
-      id: 5,
-      meta: {
-        title: '分步表单'
-      },
-      component: 'StepForm'
-    },
-    {
-      name: 'advanced-form',
-      parentId: 10,
-      id: 4,
-      meta: {
-        title: '高级表单'
-      },
-      component: 'AdvanceForm'
-    },
+    // {
+    //   name: 'step-form',
+    //   parentId: 10,
+    //   id: 5,
+    //   meta: {
+    //     title: '分步表单'
+    //   },
+    //   component: 'StepForm'
+    // },
+    // {
+    //   name: 'advanced-form',
+    //   parentId: 10,
+    //   id: 4,
+    //   meta: {
+    //     title: '高级表单'
+    //   },
+    //   component: 'AdvanceForm'
+    // },
 
     // list
     {
@@ -581,72 +581,72 @@ const userNav = options => {
       id: 10011,
       path: '/list/table-list/:pageNo([1-9]\\d*)?',
       meta: {
-        title: '查询表格',
+        title: '企业推荐人才',
         show: true
       },
       component: 'TableList'
     },
-    {
-      name: 'basic-list',
-      parentId: 10010,
-      id: 10012,
-      meta: {
-        title: '标准列表',
-        show: true
-      },
-      component: 'StandardList'
-    },
-    {
-      name: 'card',
-      parentId: 10010,
-      id: 10013,
-      meta: {
-        title: '卡片列表',
-        show: true
-      },
-      component: 'CardList'
-    },
-    {
-      name: 'search',
-      parentId: 10010,
-      id: 10014,
-      meta: {
-        title: '搜索列表',
-        show: true
-      },
-      redirect: '/list/search/article',
-      component: 'SearchLayout'
-    },
-    {
-      name: 'article',
-      parentId: 10014,
-      id: 10015,
-      meta: {
-        title: '搜索列表（文章）',
-        show: true
-      },
-      component: 'SearchArticles'
-    },
-    {
-      name: 'project',
-      parentId: 10014,
-      id: 10016,
-      meta: {
-        title: '搜索列表（项目）',
-        show: true
-      },
-      component: 'SearchProjects'
-    },
-    {
-      name: 'application',
-      parentId: 10014,
-      id: 10017,
-      meta: {
-        title: '搜索列表（应用）',
-        show: true
-      },
-      component: 'SearchApplications'
-    },
+    // {
+    //   name: 'basic-list',
+    //   parentId: 10010,
+    //   id: 10012,
+    //   meta: {
+    //     title: '标准列表',
+    //     show: true
+    //   },
+    //   component: 'StandardList'
+    // },
+    // {
+    //   name: 'card',
+    //   parentId: 10010,
+    //   id: 10013,
+    //   meta: {
+    //     title: '卡片列表',
+    //     show: true
+    //   },
+    //   component: 'CardList'
+    // },
+    // {
+    //   name: 'search',
+    //   parentId: 10010,
+    //   id: 10014,
+    //   meta: {
+    //     title: '搜索列表',
+    //     show: true
+    //   },
+    //   redirect: '/list/search/article',
+    //   component: 'SearchLayout'
+    // },
+    // {
+    //   name: 'article',
+    //   parentId: 10014,
+    //   id: 10015,
+    //   meta: {
+    //     title: '搜索列表（文章）',
+    //     show: true
+    //   },
+    //   component: 'SearchArticles'
+    // },
+    // {
+    //   name: 'project',
+    //   parentId: 10014,
+    //   id: 10016,
+    //   meta: {
+    //     title: '搜索列表（项目）',
+    //     show: true
+    //   },
+    //   component: 'SearchProjects'
+    // },
+    // {
+    //   name: 'application',
+    //   parentId: 10014,
+    //   id: 10017,
+    //   meta: {
+    //     title: '搜索列表（应用）',
+    //     show: true
+    //   },
+    //   component: 'SearchApplications'
+    // },
 
     // profile
     {
@@ -666,21 +666,21 @@ const userNav = options => {
       parentId: 10018,
       id: 10019,
       meta: {
-        title: '基础详情页',
+        title: '公司介绍',
         show: true
       },
       component: 'ProfileBasic'
-    },
-    {
-      name: 'advanced',
-      parentId: 10018,
-      id: 10020,
-      meta: {
-        title: '高级详情页',
-        show: true
-      },
-      component: 'ProfileAdvanced'
     }
+    // {
+    //   name: 'advanced',
+    //   parentId: 10018,
+    //   id: 10020,
+    //   meta: {
+    //     title: '高级详情页',
+    //     show: true
+    //   },
+    //   component: 'ProfileAdvanced'
+    // }
 
     // // result
     // {
