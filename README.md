@@ -2,8 +2,6 @@ English | [简体中文](./README.zh-CN.md)
 
 ### 人力资源共享服务
 
-```
-
 - Install dependencies
 ```
 yarn install
