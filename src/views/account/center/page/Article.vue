@@ -15,11 +15,11 @@
       <a-list-item-meta>
         <a slot="title" href="https://vue.ant.design/">{{ item.title }}</a>
         <template slot="description">
-          <span>
+          <!-- <span>
             <a-tag>Ant Design</a-tag>
             <a-tag>设计语言</a-tag>
             <a-tag>蚂蚁金服</a-tag>
-          </span>
+          </span> -->
         </template>
       </a-list-item-meta>
       <article-list-content :description="item.description" :owner="item.owner" :avatar="item.avatar" :href="item.href" :updateAt="item.updatedAt" />
