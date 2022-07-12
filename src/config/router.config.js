@@ -29,11 +29,11 @@ export const asyncRouterMap = [
             component: () => import('@/views/dashboard/Analysis'),
             meta: { title: 'menu.dashboard.analysis', keepAlive: false, permission: ['dashboard'] }
           },
-          // 外部链接
           // {
-          //   path: 'https://www.daoziji.com/',
+          //   path: '/dashboard/tableList',
           //   name: 'Monitor',
-          //   meta: { title: 'menu.dashboard.monitor', target: '_blank' }
+          //   component: () => import('@/views/dashboard/TableList'),
+          //   meta: { title: 'menu.dashboard.monitor', keepAlive: false, permission: ['dashboard'] }
           // },
           {
             path: '/dashboard/workplace',

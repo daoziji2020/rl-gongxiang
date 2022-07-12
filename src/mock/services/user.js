@@ -499,16 +499,14 @@ const userNav = options => {
     },
     {
       name: 'monitor',
-      // path: 'https://www.baidu.com/',
       parentId: 1,
       id: 3,
       meta: {
         title: '客户签约管理',
-        // target: '_blank',
         show: true
       },
       component: 'RouteView',
-      redirect: '/dashboard/workplace'
+      redirect: '/dashboard/tableList'
     },
     {
       name: 'Analysis',

@@ -89,9 +89,9 @@
         >{{ $t('user.login.login') }}</a-button>
       </a-form-item>
 
-      <div class="user-login-other">
+      <!-- <div class="user-login-other">
         <span></span>
-        <!-- <span>{{ $t('user.login.sign-in-with') }}</span>
+        <span>{{ $t('user.login.sign-in-with') }}</span>
         <a>
           <a-icon class="item-icon" type="alipay-circle"></a-icon>
         </a>
@@ -100,9 +100,9 @@
         </a>
         <a>
           <a-icon class="item-icon" type="weibo-circle"></a-icon>
-        </a> -->
+        </a>
         <router-link class="register" :to="{ name: 'register' }">{{ $t('user.login.signup') }}</router-link>
-      </div>
+      </div> -->
     </a-form>
 
     <two-step-captcha
